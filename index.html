@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Sticky Notes</title>
+
+    <!--  Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+        rel="stylesheet"
+    >
+        
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="notes-container">
+
+        <h1>Sticky Notes</h1>
+
+        <!-- Notes will appear here -->
+        <section id="notes-section" class="notes-grid"></section>
+
+        
+
+        <!-- Input area -->
+        <div class="note-form">
+            <textarea
+                id="noteInput"
+                placeholder="Type a new note..."
+                aria-label="Type a new note"
+            ></textarea>
+
+            <button
+                type="button"
+                id="addButton"
+                aria-label="Add note"
+            >+</button>
+        </div>
+
+    </main>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
